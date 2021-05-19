@@ -1,0 +1,24 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars-helpers": "^0.10.0",
+    "mongoose": "^5.12.10",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "type": "module"
+}
